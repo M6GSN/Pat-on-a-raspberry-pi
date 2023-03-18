@@ -43,3 +43,9 @@ the following commands
 
 `sudo nano gpsd`
 
+here we ned to edit one of two lines both staring #DEVICES depenmds on how your gps unit shows up we need to remove the # from that one and remove the other line when done press Ctrl+s then Ctrl+x. 
+
+Testing GPS.first off reboot the system this is so our changes to the GPSD file can take hold in the system to reboot your pi run `sudo reboot`
+When your Pi reboot we will test that the GPS is configered properly by running `cgps` if all is working you should see GPS including your grid reference
+    
+
