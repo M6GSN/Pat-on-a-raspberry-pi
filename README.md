@@ -27,3 +27,14 @@ Once this is done we need to install gpsd the service daemon that we will use to
 
 now we need to install [pat](https://getpat.io/) at time of writing the latest version is v0.13.1 
 to get and install this we need to run the following command line `wget https://github.com/la5nta/pat/releases/download/v0.13.1/pat_0.13.1_linux_armhf.deb`  then run  `sudo dpkg -i pat_0.13.1_linux_armhf.deb -y`
+
+___
+
+now to configure the system
+
+first of configure the GPS.  First with out the GPS plugged in run `ls /dev/tty???0` note there should be a entry and that ls /dev/ttyAMA0 now plug in your GPS unit and re run the above command again you should see in addition the the ttyAMA0 ether ttyUSB0 or TTYacm0 note what it is and then run `sudo nano /etc/default/gpsd
+`
+
+
+https://raw.githubusercontent.com/M6GSN/Pat-on-a-raspberry-pi/main/gpsd.txt
+
