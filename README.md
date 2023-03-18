@@ -35,13 +35,11 @@ now to configure the system
 first of configure the GPS.  First with out the GPS plugged in run `ls /dev/tty???0` note there should be a entry and that ls /dev/ttyAMA0 now plug in your GPS unit and re run the above command again you should see in addition the the ttyAMA0 ether ttyUSB0 or TTYacm0 note what it is and then run 
 the following commands
 
-`cd /etc/default/
+`cd /etc/default/`
 
 `sudo rm gpsd`
 
-`
 `wget https://raw.githubusercontent.com/M6GSN/Pat-on-a-raspberry-pi/main/gpsd`
 
-`sudo nano gpsd
-`
+`sudo nano gpsd`
 
