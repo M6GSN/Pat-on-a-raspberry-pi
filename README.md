@@ -26,4 +26,4 @@ Firstly we will update and upgrade the Raspberry Pi OS by running the following 
 Once this is done we need to install gpsd the service daemon that we will use to get GPS date to pat  the command we will be using will also give us tools to test that all is configured correctly just run the following command `sudo apt install gpsd-clients -y`
 
 now we need to install [pat](https://getpat.io/) at time of writing the latest version is v0.13.1 
-to get and install this we need to run the following command line `wget https://github.com/la5nta/pat/releases/download/v0.13.1/pat_0.13.1_linux_armhf.deb`  then run  `sudo dpkg -i pat_0.13.1_linux_armhf.deb -y` plea
+to get and install this we need to run the following command line `wget https://github.com/la5nta/pat/releases/download/v0.13.1/pat_0.13.1_linux_armhf.deb`  then run  `sudo dpkg -i pat_0.13.1_linux_armhf.deb -y`
