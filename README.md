@@ -20,4 +20,4 @@ Lastly a power supply this can be a wall adaptor or a power bank if you are usin
 
 Firstly we will update and upgrade the Raspbery Pi OS
 
-'sudo apr update && sudo apt full-upgrade -y'
+`sudo apt update && sudo apt full-upgrade -y`
