@@ -38,6 +38,7 @@ the following commands
 `cd /etc/default/
 
 `sudo rm gpsd`
+
 `
 `wget https://raw.githubusercontent.com/M6GSN/Pat-on-a-raspberry-pi/main/gpsd`
 
