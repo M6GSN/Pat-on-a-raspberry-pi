@@ -64,11 +64,11 @@ then edit the following
 
 then under gpsd change everthing to the following
 
-   "enable_http": true,
+"enable_http": true
 
-    "allow_forms": true,
+"allow_forms": true,
 
-    "use_server_time": false,
+"use_server_time": false,
 
-    "addr": "localhost:2947"
+"addr": "localhost:2947"
 
