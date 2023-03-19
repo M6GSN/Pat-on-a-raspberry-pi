@@ -72,3 +72,7 @@ then under gpsd change everthing to the following
 
 "addr": "localhost:2947"
 
+___
+
+now to test pat this can be done by running `pat http` then going to your browser and antering eather localhost:8080 or Pi.ip.darress:8080 (ie 192.168.1.10:8080)
+
