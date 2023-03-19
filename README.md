@@ -58,11 +58,11 @@ then edit the following
 
 "mycall": "YOUR CALL SIGN GOES HERE",
 
-"secure_login_password": "WINLINK PASSWORD",
+"secure_login_password": "WINLINK PASSWORD", this can be left blank if 1 you have yet to set up winlink or 2 you want to enter your password all everytime
 
 "http_addr": "Localhost:8080", if sunning this has a headless pi change the localhost to 0.0.0.0 
 
-then under gpsd change everthing to the following
+then under gpsd change everything to the following
 
 "enable_http": true,
 
@@ -75,4 +75,6 @@ then under gpsd change everthing to the following
 ___
 
 now to test pat this can be done by running `pat http` then going to your browser and antering eather localhost:8080 or Pi.ip.darress:8080 (ie 192.168.1.10:8080)
+
+to connect to the winlink service go to action then connect I would suggest to run a telnet session to begin with so under transport select telnet if the address filed is bland copy and edit the following `YOURCALL:CMSTelnet@cms.winlink.org:8772` your callsign may need to be in upper case then hit connect not pat will connect to the winlink servers you may be assed for your winlink password if you entered it in the pat configure file
 
