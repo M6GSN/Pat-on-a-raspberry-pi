@@ -49,3 +49,26 @@ Testing GPS.first off reboot the system this is so our changes to the GPSD file 
 When your Pi reboot we will test that the GPS is configered properly by running `cgps` if all is working you should see GPS including your grid reference and shpod look like the image below but with moving text
 
 ![cgps running all good](https://m6gsn.co.uk/git/pat/cgps.png)
+
+___
+Now to configure Pat
+
+run the following command pat configure`
+then edit the following
+
+"mycall": "YOUR CALL SIGN GOES HERE",
+
+"secure_login_password": "WINLINK PASSWORD",
+
+"http_addr": "Localhost:8080", if sunning this has a headless pi change the localhost to 0.0.0.0 
+
+then under gpsd change everthing to the following
+
+   "enable_http": true,
+
+    "allow_forms": true,
+
+    "use_server_time": false,
+
+    "addr": "localhost:2947"
+
