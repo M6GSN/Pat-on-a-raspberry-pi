@@ -64,7 +64,7 @@ then edit the following
 
 then under gpsd change everthing to the following
 
-"enable_http": true
+"enable_http": true,
 
 "allow_forms": true,
 
